@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(IMG2/Gear5.png);
+    background-color:black;
+    background-position: top;
+}
+
+body.kaido-theme{
+    background-image: url(IMG2/kaido.png);
+    background-color: white;
+    background-position: top;
+}
+
+header, main, footer{
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+}
