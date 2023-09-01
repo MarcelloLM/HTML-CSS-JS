@@ -6,12 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media768.css">
+    <link rel="stylesheet" href="media480.css">
     <title>Dogs</title>
 </head>
 <body>
     <!--div.container>header+aside+main+section#c1+section#c2+section#c3+footer -->
     <div class="container">
-        <header>Header</header>
+        <header>
+            <!-- nav.menu>div.logo+ul.menu-items>li*5>a -->
+            <nav class="menu">
+                <div class="logo">Sobre Dogs...</div>
+                <ul class="menu-items">
+                    <li><a href="">Raças</a></li>
+                    <li><a href="">Dicas</a></li>
+                    <li><a href="">Adote</a></li>
+                </ul>
+                <div class="search-bar">
+                    <input type="text" 
+                    placeholder="Encontre um dog...">
+                    <button type="submit">Buscar</button>
+                </div>
+            </nav>
+        </header>
         <aside>
             <!-- div.author_info>img.author-thumbnail+h2.author-name+a.author=email+p.author-bio+div.social-links>a*5 -->
             <div class="author_info">
@@ -27,13 +44,46 @@
                 <a href=""><i class="fab fa-github social-icon"></i></a>
                 </div>
             </div>
-            
         </aside>
-        <main>Main</main>
+        <main>
+            <img src="img/dogu.jpg" alt="lindos cachorros" class="main-dog">
+        </main>
         <section id="c1"><img src="img/do2.PNG" alt="Dog 1"></section>
         <section id="c2"><img src="img/do3.PNG" alt="Dog 2"></section>
         <section id="c3"><img src="img/do4.PNG" alt="Dog 3"></section>
-        <footer>Footer</footer>
+        <footer>
+            <!-- div.footer-container>div.footer-section*3 -->
+            <div class="footer-container">
+                <div class="footer-section">
+                    <!-- ul>li.item$@-*5 -->
+                    <!-- ul>li*5 -->
+                    <ul>
+                        <li>Raças</li>
+                        <li>Rações</li>
+                        <li>Competições</li>
+                        <li>Hablilidades</li>
+                        <li>Adote</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <!-- nav>ul>li*3>a -->
+                    <nav class="menu-footer">
+                        <ul>
+                            <li><a href="#" target="blank">Labrador</a></li>
+                            <li><a href="#" target="blank">Golden Retriver</a></li>
+                            <li><a href="#" target="blank">Caramelo</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer-section">
+                    <p><a href="mailto:cachorroslindos@gmail.com" class="author-email">cachorroslindos@gmail.com</a></p>
+                    <p>Telefone: <strong>(11)99999-9999</strong></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>2023 - Sobre Dogs - Todos os direitos reservados</p>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
