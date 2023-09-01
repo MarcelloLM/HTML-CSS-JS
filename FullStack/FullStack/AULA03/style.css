@@ -1,3 +1,4 @@
+/* Estrutura principal */
 body{
     max-width: 1000px;
     margin: 0 auto;
@@ -5,7 +6,7 @@ body{
 }
 header, aside, main,
 #c1, #c2, #c3, footer{
-    background-color: #7186D0;
+    background-color: #6674a5;
     padding: 10px;
     border-radius: 10px;
 }
@@ -89,5 +90,88 @@ footer{grid-area: f;}
     margin: auto;
     border-radius: 10px;
     border: #000000 solid 2px;
+    height: auto;
+}
 
+/* Estilos Header */
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+}
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px;
+    margin-right: auto;
+}
+.search-bar{
+    padding: 8px;
+    margin-left: auto;
+}
+.search-bar input{
+    margin-right: 5px;
+}
+.search-bar button{
+    padding: 5px 10px;
+}
+.menu-items{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+}
+.menu-items li{
+    margin-left: 35px;
+}
+.menu-items li:first-child{
+    margin-left: 0;
+}
+.menu-items li a{
+    text-decoration: none;
+    color: #333;
+}
+.menu-items li a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+/* Estilos footer */
+footer{
+    padding: 5px 0;
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #2e2d2d;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+.footer-section{
+    padding: 5px;
+    max-width: 300px;
+    flex: 1;
+}
+
+/* Estilo Main */
+main{
+    position: relative;
+    overflow: hidden;
+}
+.main-dog{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
