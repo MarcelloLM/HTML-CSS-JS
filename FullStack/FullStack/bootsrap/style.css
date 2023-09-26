@@ -1,15 +1,12 @@
 *{font-family: 'Roboto', sans-serif;}
 
 body{
-    background-image: url('img/triangles_pattern.webp');
-    max-width: 1200px;
+    background-image: url('IMG/onigashima.png');
+    max-width: 1200px; 
     width: 100%;
     margin: 0% auto;
-}
-
-.breadcrumb{
-    padding-left: 3rem;
-    padding-top: 1rem;
+    background-size: contain;
+    background-position: top;
 }
 
 .tamanho{
@@ -18,3 +15,11 @@ body{
     margin: 0% auto;
 }
 
+.ratio iframe{
+    display: block;
+    border: solid;
+    border-radius: 15px;
+}
+.text-center{
+    color: white;
+}
